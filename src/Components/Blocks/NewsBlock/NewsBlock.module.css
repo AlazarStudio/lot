@@ -1,0 +1,19 @@
+.news_section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news_title {
+  padding-left: 99px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #575257;
+}
+
+.news_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}

@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 30px;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #DCE0D6;
+}
+
+.footer_wrapper {
+  width: var(--blockWidth);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.footer_info {
+  display: flex;
+  gap: 200px;
+}
+
+.footer_info p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #575257;
+}
+
+.footer_line {
+  padding-top: 50px;
+  border-top: 2px solid #575257;
+}
+
+.footer_info2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #575257;
+}
