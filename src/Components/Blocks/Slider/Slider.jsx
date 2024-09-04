@@ -18,8 +18,10 @@ function Slider({ children, ...props }) {
 				slidesPerView={1}
 				direction='horizontal'
 				loop={true}
+				pagination={{ clickable: true }}
 				onSwiper={setSwiper}
 				onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
+				modules={[Pagination]}
 			>
 				{slides.map((slide, index) => (
 					<SwiperSlide key={index}>

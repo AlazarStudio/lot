@@ -22,6 +22,7 @@ function MainPage({ children, ...props }) {
 			}
 		}
 	}, [location])
+	
 	return (
 		<main className={styles.main_main}>
 			<Slider />
