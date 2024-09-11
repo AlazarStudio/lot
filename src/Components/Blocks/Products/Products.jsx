@@ -12,9 +12,7 @@ function Products({ id }) {
 				))}
 			</section>
 
-			<button>
-				<a href="/КАТАЛОГ_ LOT_ В КРИВЫХ (2).pdf" target='_blank'>Скачать каталог</a>
-			</button>
+			<a href="/КАТАЛОГ_ LOT_ В КРИВЫХ (2).pdf" target='_blank'>Скачать каталог</a>
 		</div>
 	)
 }
