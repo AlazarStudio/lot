@@ -23,3 +23,39 @@
 .nav_list li a {
   font-size: 20px;
 }
+
+@media (min-width: 0px) and (max-width: 1299px) {
+  .header {
+    min-height: fit-content;
+  }
+
+  .header_wrapper {
+    width: 100%;
+    align-items: start;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .header_wrapper img {
+    height: 80px;
+  }
+
+  .nav_list {
+    gap: 5px;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .nav_list li,
+  .nav_list li a {
+    font-size: 14px;
+  }
+
+  .header_wrapper nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

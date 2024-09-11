@@ -20,3 +20,9 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 0px) and (max-width: 1299px) {
+    .slider_wrapper{
+      height: 35vh;
+    }
+}

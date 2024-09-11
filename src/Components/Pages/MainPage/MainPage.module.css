@@ -1,3 +1,20 @@
+main {
+  margin: 50px 0 50px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: #fff;
+  position: relative;
+}
+
 .main_main {
   margin: 0 0 80px 0;
+}
+
+@media (min-width: 0px) and (max-width: 1299px) {
+  .main_main{
+    margin: 0 0 20px 0;
+    gap: 20px;
+  }
 }

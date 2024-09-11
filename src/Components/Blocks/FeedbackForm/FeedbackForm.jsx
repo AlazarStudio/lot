@@ -131,7 +131,7 @@ function FeedbackForm({ id }) {
 							Нажимая на кнопку, я даю согласие на обработку персональных данных
 						</p>
 						<div className={styles.close} onClick={closeModal}>
-							X
+						&#x2715;
 						</div>
 					</div>
 				</form>

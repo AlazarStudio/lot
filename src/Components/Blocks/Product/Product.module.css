@@ -26,3 +26,36 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 0px) and (max-width: 1299px) {
+  .product p {
+    width: 100%;
+  }
+
+  .product {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 42%;
+  }
+
+  .product :first-child {
+    font-size: 18px;
+    font-weight: 700;
+    color: #575257;
+    text-align: center;
+  }
+
+  .product_img{
+    width: 100%;
+  }
+
+  .application{
+    font-size: 16px;
+  }
+
+  .product .description{
+    font-size: 14px;
+  }
+}

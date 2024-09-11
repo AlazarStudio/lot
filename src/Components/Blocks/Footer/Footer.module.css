@@ -34,3 +34,43 @@
   font-weight: 700;
   color: #575257;
 }
+
+@media (min-width: 0px) and (max-width: 1299px) {
+  .footer {
+    padding: 10px;
+    min-height: auto;
+  }
+
+  .footer_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_wrapper img{
+    height: 80px;
+  }
+
+  .footer_info {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer_info p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #575257;
+  }
+
+  .footer_line {
+    padding-top: 10px;
+    border-top: 2px solid #575257;
+  }
+
+  .footer_info2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #575257;
+  }
+}

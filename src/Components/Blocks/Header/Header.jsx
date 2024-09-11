@@ -12,7 +12,7 @@ function Header({ children, ...props }) {
 	return (
 		<header className={styles.header}>
 			<div className={styles.header_wrapper}>
-				<img src='/images/lot_logo.png' alt='' />
+				<Link to='/'><img src='/images/lot_logo.png' alt='' /></Link>
 				<nav>
 					<ul className={styles.nav_list}>
 						<li>
